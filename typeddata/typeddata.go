@@ -2,9 +2,10 @@ package typeddata
 
 import (
 	"fmt"
-	"github.com/negasus/haproxy-spoe-go/varint"
 	"net"
 	"reflect"
+
+	"github.com/ecosio/haproxy-spoe-go/varint"
 
 	"github.com/pkg/errors"
 )

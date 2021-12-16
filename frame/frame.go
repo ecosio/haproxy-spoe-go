@@ -1,10 +1,11 @@
 package frame
 
 import (
-	"github.com/negasus/haproxy-spoe-go/action"
-	"github.com/negasus/haproxy-spoe-go/message"
-	"github.com/negasus/haproxy-spoe-go/payload/kv"
 	"sync"
+
+	"github.com/ecosio/haproxy-spoe-go/action"
+	"github.com/ecosio/haproxy-spoe-go/message"
+	"github.com/ecosio/haproxy-spoe-go/payload/kv"
 )
 
 type Type byte

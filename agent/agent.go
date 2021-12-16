@@ -1,9 +1,10 @@
 package agent
 
 import (
-	"github.com/negasus/haproxy-spoe-go/request"
-	"github.com/negasus/haproxy-spoe-go/worker"
 	"net"
+
+	"github.com/ecosio/haproxy-spoe-go/request"
+	"github.com/ecosio/haproxy-spoe-go/worker"
 )
 
 func New(handler func(*request.Request)) *Agent {

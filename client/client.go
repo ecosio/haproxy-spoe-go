@@ -4,10 +4,11 @@ import (
 	"bufio"
 	"bytes"
 	"fmt"
-	"github.com/negasus/haproxy-spoe-go/frame"
-	_ "github.com/negasus/haproxy-spoe-go/request"
 	"io"
 	"net"
+
+	"github.com/ecosio/haproxy-spoe-go/frame"
+	_ "github.com/ecosio/haproxy-spoe-go/request"
 )
 
 /// Client is a simple client for spop protocol, this should only be used for testing purpose

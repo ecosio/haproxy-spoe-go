@@ -1,4 +1,4 @@
-module github.com/negasus/haproxy-spoe-go
+module github.com/ecosio/haproxy-spoe-go
 
 go 1.12
 

@@ -2,9 +2,10 @@ package kv
 
 import (
 	"fmt"
-	"github.com/negasus/haproxy-spoe-go/typeddata"
-	"github.com/negasus/haproxy-spoe-go/varint"
 	"sync"
+
+	"github.com/ecosio/haproxy-spoe-go/typeddata"
+	"github.com/ecosio/haproxy-spoe-go/varint"
 )
 
 var kvPool = sync.Pool{

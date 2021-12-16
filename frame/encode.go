@@ -4,8 +4,9 @@ import (
 	"bytes"
 	"encoding/binary"
 	"fmt"
-	"github.com/negasus/haproxy-spoe-go/varint"
 	"io"
+
+	"github.com/ecosio/haproxy-spoe-go/varint"
 )
 
 func (f *Frame) Encode(dest io.Writer) (n int, err error) {

@@ -1,9 +1,10 @@
 package request
 
 import (
-	"github.com/negasus/haproxy-spoe-go/action"
-	"github.com/negasus/haproxy-spoe-go/message"
 	"sync"
+
+	"github.com/ecosio/haproxy-spoe-go/action"
+	"github.com/ecosio/haproxy-spoe-go/message"
 )
 
 var requestPool = sync.Pool{

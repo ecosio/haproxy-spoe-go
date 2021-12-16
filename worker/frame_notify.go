@@ -2,9 +2,10 @@ package worker
 
 import (
 	"bytes"
-	"github.com/negasus/haproxy-spoe-go/frame"
-	"github.com/negasus/haproxy-spoe-go/request"
 	"log"
+
+	"github.com/ecosio/haproxy-spoe-go/frame"
+	"github.com/ecosio/haproxy-spoe-go/request"
 )
 
 func (w *worker) processNotifyFrame(f *frame.Frame) {

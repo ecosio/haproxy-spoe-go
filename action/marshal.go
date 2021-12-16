@@ -2,8 +2,9 @@ package action
 
 import (
 	"fmt"
-	"github.com/negasus/haproxy-spoe-go/typeddata"
-	"github.com/negasus/haproxy-spoe-go/varint"
+
+	"github.com/ecosio/haproxy-spoe-go/typeddata"
+	"github.com/ecosio/haproxy-spoe-go/varint"
 )
 
 func (action *Action) Marshal(buf []byte) ([]byte, error) {

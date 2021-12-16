@@ -3,8 +3,9 @@ package frame
 import (
 	"encoding/binary"
 	"fmt"
-	"github.com/negasus/haproxy-spoe-go/varint"
 	"io"
+
+	"github.com/ecosio/haproxy-spoe-go/varint"
 )
 
 func (f *Frame) Read(src io.Reader) error {

@@ -1,14 +1,15 @@
 package worker
 
 import (
-	"github.com/negasus/haproxy-spoe-go/client"
-	"github.com/negasus/haproxy-spoe-go/request"
-	"github.com/stretchr/testify/assert"
-	_ "github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/mock"
 	"net"
 	"testing"
 	"time"
+
+	"github.com/ecosio/haproxy-spoe-go/client"
+	"github.com/ecosio/haproxy-spoe-go/request"
+	"github.com/stretchr/testify/assert"
+	_ "github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/mock"
 )
 
 type MockedHandler struct {

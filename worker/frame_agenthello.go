@@ -3,7 +3,8 @@ package worker
 import (
 	"bytes"
 	"fmt"
-	"github.com/negasus/haproxy-spoe-go/frame"
+
+	"github.com/ecosio/haproxy-spoe-go/frame"
 )
 
 func (w *worker) sendAgentHello(haproxyHello *frame.Frame) error {

@@ -3,11 +3,12 @@ package worker
 import (
 	"bufio"
 	"fmt"
-	"github.com/negasus/haproxy-spoe-go/frame"
-	"github.com/negasus/haproxy-spoe-go/request"
 	"io"
 	"log"
 	"net"
+
+	"github.com/ecosio/haproxy-spoe-go/frame"
+	"github.com/ecosio/haproxy-spoe-go/request"
 )
 
 const (
